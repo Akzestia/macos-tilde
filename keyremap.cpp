@@ -63,7 +63,8 @@ bool createDefaultConfig(const std::string &filepath) {
           "option/alt\n";
   file << "  // Combine with + : \"shift+command\"\n";
   file << "  \n";
-  file << "  \"10\": [\"\", \"~\"],\n";
+  file << "  \"10\": [\"shift\", \"~\"],\n";
+  file << "  \"10\": [\"\", \"`\"],\n";
   file << "}\n";
 
   file.close();

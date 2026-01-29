@@ -2,6 +2,13 @@
 
 Allows you to use you keyboard on MacOS ^^
 
+# Build 
+
+```sh
+sudo chmod +x ./scripts/build.sh
+./scripts/build.sh
+```
+
 # Config
 
 ```json

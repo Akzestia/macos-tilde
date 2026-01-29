@@ -4,13 +4,14 @@ Allows you to use you keyboard on MacOS ^^
 
 # Config
 
-'''json
+```json
 {
   // Example configuration:
   // "keycode": ["modifiers", "character"]
   // Available modifiers: shift, control/ctrl, command/cmd, option/alt
   // Combine with + : "shift+command"
 
-  "10": ["", "~"],
+  "10": ["shift", "~"],
+  "10": ["", "`"],
 }
-'''
+```

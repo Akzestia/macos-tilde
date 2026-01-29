@@ -158,15 +158,15 @@ bool loadConfig(const std::string &filename) {
 void printModifiers(CGEventFlags flags) {
   printf(" [");
   if (flags & kCGEventFlagMaskShift)
-    printf("Shift ");
+    printf(" Shift ");
   if (flags & kCGEventFlagMaskControl)
-    printf("Control ");
+    printf(" Control ");
   if (flags & kCGEventFlagMaskCommand)
-    printf("Command ");
+    printf(" Command ");
   if (flags & kCGEventFlagMaskAlternate)
-    printf("Option ");
+    printf(" Option ");
   if (flags & kCGEventFlagMaskAlphaShift)
-    printf("CapsLock ");
+    printf(" CapsLock ");
   printf("]");
 }
 

@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux | grep -v grep | grep -E "(MacOSTilda|keyremap)"
+ps aux | grep -v grep | grep -E "(MacOSTilde|keyremap)"

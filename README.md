@@ -41,4 +41,3 @@ sudo chmod +x ./scripts/run.sh
 > #!/bin/bash
 > nohup ./build/keyremap > /dev/null 2>&1 &
 > ```
-keyremap

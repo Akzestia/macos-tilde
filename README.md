@@ -1,4 +1,4 @@
-# MacOS Tilda
+# MacOS Tilde
 
 Allows you to use you keyboard on MacOS ^^
 
